@@ -29,19 +29,18 @@ body {
   overflow: hidden;
 }
 
-/* .card__image__container {
-  width: 100%; 
-  height: 300px;
-  background-image: url(images/image-header-mobile.jpg);
-  background-color: var(--clr-violet);
-} */
+.card__image__container {
+  position: relative;
+}
 
-/* .card__picture {
-  background-color: var(--clr-violet);
-  opacity: 0.2;
+.card__image__overlay {
   width: 100%;
   height: 100%;
-} */
+  opacity: 0.4;
+  position: absolute;
+  background-color: hsla(277, 64%, 61%, 90%);
+  background-color: var(--clr-violet);
+}
 
 .card__image__mobile {
   width: 100%;
